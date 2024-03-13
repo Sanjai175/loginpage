@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1632788/pexels-photo-1632788.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.loginpage {
+    border: 2px solid rgb(255, 255, 255,.2);
+    backdrop-filter: blur(5px);
+    height: 400px;
+    width: 420px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+    margin:5px 0px 10px 0px;
+    color: white;
+}
+.username {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  margin: 30px 0;;
+}
+
+.username input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border:2px solid rgba(225, 225, 225,.5);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    font-size: 20px;
+}
+
+.username input::placeholder{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.username i{
+    position: absolute;
+    right: 25px;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.loginpage .rememberme{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    margin: -5px 0 15px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.rememberme a{
+    color: white;
+    text-decoration: none;
+}
+.rememberme a:hover{
+    text-decoration: underline;
+}
+
+.loginpage  .btn{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.account {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.account a{
+    color: white;
+    text-decoration: none;
+   
+}
+.account a span:hover{
+    text-decoration: underline;
+}
+.account a span{
+    font-weight: 600;
+}
